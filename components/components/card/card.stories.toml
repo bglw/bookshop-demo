@@ -1,3 +1,10 @@
+[meta]
+array_structures = ["content_blocks"]
+label = "Card"
+description = "A card with an image and information"
+icon = "mms"
+tags = ["image", "text", "griddable"]
+
 [defaults]
 compact = false
 active = false
