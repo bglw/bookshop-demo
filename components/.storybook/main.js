@@ -3,7 +3,8 @@ module.exports = {
   logLevel: "debug",
   addons: [
     "@storybook/addon-docs",
-    "@storybook/addon-controls"
+    "@storybook/addon-controls",
+    "storybook-addon-designs"
   ],
 };
 

@@ -6,14 +6,20 @@ icon = "mms"
 tags = ["image", "text", "griddable"]
 
 [defaults]
-compact = false
+compact = false # Hides the subtitle
 active = false
 
 image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lapo_gyslos.jpeg/440px-Lapo_gyslos.jpeg"
 title = "Poplar, Aspen, and Cottonwood"
 subtitle = "Leaf of Populus tremula"
 
+[defaults.colour--select]
+red = "Red"
+blue = "Blue"
+green = "Green"
+
 [standard]
+_design = "https://www.figma.com/file/pCuRRMXe8WkTBRGLA5Uz6M/Untitled?node-id=14%3A2"
 
 [compact]
 compact = true
