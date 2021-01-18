@@ -22,9 +22,24 @@ build_site_bookshop () {
 	build_bookshop
 }
 
+build_hosted_bookshop () {
+	echo "📚 ---> Entering Components directory"
+	cd components
+	echo "📚 ---> Cleaning modules"
+	rm -rf node_modules
+	echo "📚 ---> Installing bookshop dependencies"
+	npm i
+	echo "📚 ---> Building bookshop"
+	npm run ci-build-storybook --loglevel verbose
+	echo "📚 ---> Complete"
+}
+
 if [ "$BUILD_SITE" = 'true' ]; then
 	echo "📚 ---> Running bookshop prebuild for Site"
  	build_site_bookshop
+elif [ "$BUILD_STORYBOOK" = 'true' ]; then
+	echo "📚 ---> Running hosted bookshop build"
+	build_hosted_bookshop
 else
  	echo "📚 ---> No prebuild variable found, skipping"
 fi
