@@ -1,3 +1,10 @@
+[meta]
+array_structures = ["content_blocks"]
+label = "Title"
+description = "A main page h1"
+icon = "title"
+tags = ["text", "heading"]
+
 [defaults]
 title = "Populus is a genus of 25–30 species"
 

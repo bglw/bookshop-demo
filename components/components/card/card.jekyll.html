@@ -1,3 +1,4 @@
+{% svelte card bind=include %}
 <div class="{{ 'c-card' | addmods: compact:include.compact  | addstates: active:include.active }}">
 
     <img class="c-card__image" src="{{ include.image }}" alt="Demo alt">
@@ -11,3 +12,4 @@
     </p>
 
 </div>
+{% endsvelte %}
