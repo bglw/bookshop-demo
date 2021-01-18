@@ -1,0 +1,15 @@
+{
+  "name": "demo-site",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "jekyll-extract -c ../components -s ./assets/site/components.js",
+    "watch": "jekyll-extract -c ../components -s ./assets/site/components.js --watch"
+  },
+  "devDependencies": {
+    "@bookshop/jekyll-extract": "^1.6.4"
+  },
+  "peerDependencies": {
+    "webpack": "^4.44.1"
+  }
+}

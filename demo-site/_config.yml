@@ -1,0 +1,7 @@
+theme: demo-theme
+
+plugins:
+  - jekyll-watch
+  - jekyll-bookshop
+  - bookshop-array-structures
+  - jekyll-svelte-slabs

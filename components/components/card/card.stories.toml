@@ -1,0 +1,17 @@
+[defaults]
+compact = false
+active = false
+
+image = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lapo_gyslos.jpeg/440px-Lapo_gyslos.jpeg"
+title = "Poplar, Aspen, and Cottonwood"
+subtitle = "Leaf of Populus tremula"
+
+[standard]
+
+[compact]
+compact = true
+
+[active]
+active = true
+
+

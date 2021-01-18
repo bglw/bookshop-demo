@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+gem "jekyll", "~> 4.1.1"
+
+gem 'demo-theme', :path => '../demo-theme'
+
+group :jekyll_plugins do
+  gem "jekyll-watch", :git => "https://github.com/cloudcannon/jekyll-watch"
+  gem "jekyll-bookshop", "~> 1.1"
+  gem "bookshop-array-structures", '1.4.7'
+  gem "jekyll-svelte-slabs", "~> 0.0.4"
+end

@@ -1,0 +1,24 @@
+{
+  "name": "bookshop-demo-presentation",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "bulk-install": "run-p site:install theme:install components:install",
+    "start": "run-s pre watch",
+    "watch": "run-p site:watch:* theme:watch components:watch",
+    "pre": "run-p site:build:bookshop",
+    "site:install": "cd demo-site && bundle install && npm install",
+    "site:watch:jekyll": "cd demo-site && bundle exec jekyll serve --trace --port 4001",
+    "site:watch:bookshop": "cd demo-site && npm run watch",
+    "site:build:bookshop": "cd demo-site && npm run build",
+    "theme:install": "cd demo-theme && npm install",
+    "theme:watch": "cd demo-theme && npm run svelte",
+    "components:install": "cd components && npm install",
+    "components:watch": "cd components && npm run start",
+    "gen": "cd components && npm run gen"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "webpack": "^4.44.1"
+  }
+}

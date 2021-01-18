@@ -1,0 +1,17 @@
+{
+  "name": "demo-theme",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svelte": "webpack --watch"
+  },
+  "devDependencies": {
+    "import-glob-keyed": "0.0.1",
+    "svelte": "^3.29.0",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "svelte-slabs-renderer": "0.0.5"
+  }
+}
