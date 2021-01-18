@@ -5,3 +5,7 @@ plugins:
   - jekyll-bookshop
   - bookshop-array-structures
   - jekyll-svelte-slabs
+
+_array_structures:
+  content_blocks:
+    style: modal
