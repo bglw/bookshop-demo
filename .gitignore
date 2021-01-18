@@ -8,4 +8,5 @@ vendor
 Gemfile.lock
 node_modules
 _bookshop
+storybook-static
 .vscode

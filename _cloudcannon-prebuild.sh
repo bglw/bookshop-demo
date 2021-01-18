@@ -30,7 +30,7 @@ build_hosted_bookshop () {
 	echo "📚 ---> Installing bookshop dependencies"
 	npm i
 	echo "📚 ---> Building bookshop"
-	npm run ci-build-storybook --loglevel verbose
+	npm run ci-build-storybook
 	echo "📚 ---> Complete"
 }
 
