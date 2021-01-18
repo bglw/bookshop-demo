@@ -10,3 +10,4 @@ node_modules
 _bookshop
 storybook-static
 .vscode
+components.js
