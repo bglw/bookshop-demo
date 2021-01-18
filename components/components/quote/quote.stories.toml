@@ -1,9 +1,9 @@
 [meta]
 array_structures = ["content_blocks"]
-label = "Card"
-description = "A card with an image and information"
-icon = "mms"
-tags = ["image", "text", "griddable"]
+label = "Quote"
+description = "A floating quote block"
+icon = "format_quote"
+tags = ["text"]
 
 [defaults]
 content_markdown = "The genus has a large genetic diversity, and can grow from 15–50 m (49–164 ft) tall, with trunks up to 2.5 m (8 ft 2 in) in diameter."
