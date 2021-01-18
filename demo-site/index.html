@@ -16,4 +16,6 @@ content_blocks:
       ft) tall, with trunks up to 2.5 m (8 ft 2 in) in diameter.
 ---
 
-
+{% for block in page.content_blocks %}
+    {% component {{block._component_type}} bind=block %}
+{% endfor %}
