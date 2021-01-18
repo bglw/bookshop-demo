@@ -28,7 +28,9 @@ build_hosted_bookshop () {
 	echo "📚 ---> Cleaning modules"
 	rm -rf node_modules
 	echo "📚 ---> Installing bookshop dependencies"
-	npm i
+	npm install --loglevel=error
+	echo "📚 ---> Installing bookshop dev dependencies"
+	npm install --only=dev --loglevel=error
 	echo "📚 ---> Building bookshop"
 	npm run ci-build-storybook
 	echo "📚 ---> Complete"
