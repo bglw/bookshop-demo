@@ -17,5 +17,5 @@ content_blocks:
 ---
 
 {% for block in page.content_blocks %}
-    {% component {{block._content_type}} bind=block %}
+    {% component {{block._component_type}} bind=block %}
 {% endfor %}
